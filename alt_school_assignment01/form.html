@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.html">
+    <title>form</title>
+</head>
+<body>
+  <nav>
+    <a href="index.html">home</a>
+  </nav>
+
+  <header>
+    <h1>APPLICATION FORM</h1>
+    <p>fill in your details</p>
+  </header>
+    <br>
+    
+      <form >
+      <div style="display:inline-flex;">
+       <label for="Name">First Name <span class="required" >*</span></label>
+       <input type="text" id="name" placeholder="name"> &nbsp;&nbsp;&nbsp;&nbsp;
+       <label for="name">Last Name <span class="required" >*</span></label>
+       <input type="text" id="name" placeholder="Enter last name">
+      </div>
+      <br>
+      <br>
+      
+      <div>
+        <label for="gender">Gender <span class="required" >*</span></label>
+          <select name="gender" id="gender">
+            <option disabled selected>choose your gender</option> 
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">others</option>
+          </select> &nbsp;&nbsp;
+          <label for="date of birth">Date of birth <span class="required" >*</span></label>
+          <input type="date"  id="date of birth">
+      </div>
+      <br>
+
+      <div>
+        <label for="Email">Email Address <span class="required">*</span></label>
+        <input type="email" id="Email" placeholder="Enter email address"> &nbsp;&nbsp;
+        <label for="Education level">Education level <span class="required">*</span></label>
+        <select name="education level" id="education level">
+          <option disabled selected>Enter educational level</option>
+        <option value="secondary">secondary</option>
+        <option value="undergraduate">undergraduate</option>
+        <option value="graduated">graduated</option>
+        <option value="phd">phd</option>
+        </select>
+      </div>
+      <br>
+
+      <div>
+        <label for="country">Country <span class="required">*</span></label>
+        <select name="country" id="country">
+          <option disabled selected>Select country</option>
+          <option value="usa">Usa</option>
+          <option value="france">France</option>
+          <option value="england">England</option>
+          <option value="russia">Russia</option>
+          <option value="germany">Germany</option>
+          <option value="japan">Japan</option>
+          <option value="nigeria">Nigeria</option>
+          <option value="ghana">Ghana</option>
+          <option value="south africa">South africa</option>
+          <option value="finland">Finland</option>
+          <option value="scotland">Scotland</option>
+          <option value="denmark">Denmark</option>
+        </select>&nbsp;&nbsp;
+        <label for="state/city of residence">State/City of Residence <span class="required">*</span></label>
+        <input type="text" id="state/city of residence" placeholder="Enter your state of residence">
+      </div>
+      <br>
+
+      <div>
+        <label for="employment status">Employment Status <span class="required">*</span></label>
+        <select name="employment status" id="employment status">
+          <option disabled selected>Select employment status</option>
+          <option value="employed">Employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="student">Student</option>
+        </select>&nbsp;&nbsp;
+        <label for="number">Phone Number <span class="required">*</span></label>
+        <input type="number" name="number" id="number" placeholder="08026536367">
+      </div>
+      <br>
+
+      <div>
+        <label for="school">Choose school <span class="required">*</span></label>
+        <select name="school" id=""school>
+          <option disabled selected>Select school</option>
+          <option value="school of data">School of data</option>
+          <option value="school of product">School of product</option>
+          <option value="school of engineering">School of engineering</option>
+        </select>&nbsp;&nbsp;&nbsp;
+        <label for="course">Choose Course of study <span class="required">*</span></label>
+        <select name="course" id="course">
+          <option disabled selected>Select course</option>
+          <option value="data analysis">Data analysis</option>
+          <option value="cloud engineering">cloud engineering</option>
+          <option value="backend">backend</option>
+          <option value="frontend">frontend</option>
+          <option value="data science">data science</option>
+          <option value="product management">product management</option>
+        </select>
+      </div>
+      <br>
+
+      <div>
+        <label for="question">How dd you hear about us? <span class="required">*</span></label>
+        <select>
+          <option disabled selected>Select channel</option>
+          <option value="online">online</option>
+          <option value="friend">friend</option>
+          <option value="family">family</option>
+        </select>&nbsp;&nbsp;&nbsp;
+        <label for="discount code">Scholarshp/Discount code (optional)</label>
+        <input type="numbers" placeholder="Scholarship or discount code">
+      </div>
+      <br>
+    
+      <p>By clicking continue, i agree to <a href="#">Terms of Use</a> and acknowledge that i have read the <a href="#">Privacy policy.</a></p>
+      <button>Proceed</button>
+    </form>
+
+    <p>Already have an account?<a href="#">sign in</a></p>
+    
+</body>
+</html>
