@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+/* navigation bar */
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 17px 59px 11px rgba(10, 20, 30, 0.055);
+}
+
+    
+
+
+ .nav h1 {
+    color: rgb(112, 56, 42);
+    margin: 1rem;
+    font-size: 3rem;
+     font-weight: bold;
+     user-select: none;
+}  
+
+
+.nav input {
+    background-color: rgb(250, 245, 245);
+    width: 45vw;
+    padding: 10px;
+    border: none;
+    border-radius: 2rem;
+    font: 1em sans-serif;
+    box-shadow:10px 10px 10px -2px  rgba(187, 179, 174, 0.62) ;
+}
+
+.nav input:focus {
+    background-color: #FFF;
+    outline: none;
+    box-shadow: 0 0 0 2px rgb(235, 150, 40);
+}
+
+.nav button {
+    background:rgb(250, 245, 245);
+    padding: 10px;
+    border: none;
+    border-radius: 2rem;
+    font: 1em sans-serif;
+    cursor: pointer;
+    box-shadow:10px 10px 10px -2px  rgba(187, 179, 174, 0.62) ;
+}
+
+.nav button:hover {
+    background: bisque;
+    transform: translate(-2px);
+    transition: all 0.2s ease;
+}
+
+@keyframes animate1 {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+     
+}
+
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.nav li {
+    background-color: rgb(250, 245, 245);
+    margin: 0 1rem;
+    padding: 0.5rem;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow:10px 10px 10px -2px  rgba(187, 179, 174, 0.62) ;
+}
+
+.nav li:hover {
+    background-color:bisque;
+    color: #000;
+    transform: translate(-2px);
+    transition: all 0.2s ease;
+    /* border: 1px solid #000; */
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* main page */
+
+header {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin:100px 0;
+    padding: 10px;
+
+
+}
+
+header h2 {
+    
+    color: #000;
+    margin: 1rem;
+    font-size: 17px;
+     font-weight: lighter;
+}
+
+header h3 {
+    color: rgb(107, 14, 14);
+    margin: 1rem;
+    font-size: 2rem;
+     font-weight: bolder;
+}
+
